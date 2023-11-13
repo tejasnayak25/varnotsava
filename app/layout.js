@@ -2,6 +2,11 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import './styles.css'
 
+//@ts-ignore
+global.performance = global.performance || {
+  now: () => new Date().getTime(),
+};
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
