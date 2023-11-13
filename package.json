@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "daisyui": "^3.9.2",
+    "firebase": "^10.6.0",
     "firebase-admin": "^11.11.0",
     "material-icons": "^1.13.12",
     "multer": "^1.4.5-lts.1",
